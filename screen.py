@@ -37,6 +37,7 @@ text.setText("X")
 text.draw(win)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def Get_Input_xy(n):
     if n==0:
         c = red
@@ -92,6 +93,8 @@ def Show_Result(n,chk):
     text.draw(win)
     return
     
+=======
+>>>>>>> parent of 2961eae... logic is all messed up
 =======
 >>>>>>> parent of 2961eae... logic is all messed up
 def Close_window():
