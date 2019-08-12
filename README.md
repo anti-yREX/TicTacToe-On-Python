@@ -1,2 +1,6 @@
-# Snake-On-Python
- Snake Game made on Python. Python Squares if you may.... ;P
+# TicTacToe-On-Python
+-Step 1:
+ TicTacToe made on Python. 
+ 
+-Step 2:
+ Make a ML Prediction Model
