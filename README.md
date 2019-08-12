@@ -1,6 +1,6 @@
 # TicTacToe-On-Python
 -Step 1:
- TicTacToe made on Python. 
+Make TicTacToe on Python. 
  
 -Step 2:
- Make a ML Prediction Model
+Make a ML Prediction Model
