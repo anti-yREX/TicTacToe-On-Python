@@ -1,14 +1,17 @@
-from screen import Close_window , Get_Input_xy , Put_Output_xy , Show_Result
+from screen import Close_window
 from math import floor
 
-def process_xy(x,y):
-    if(100 < x < 400) & (150 < y < 450):
-        x = x - 100
-        x = floor(x/100)
-        y = y - 150
-        y = floor(y/100)
-        return x , y
+pt = Close_window()
+x = pt.getX()
+y = pt.getY()
+a = [-1 ,-1]
+if(100 < x < 400) & (150 < y < 450):
+    if x<200:
+        x = 1
+    elif x<300:
+        x = 2
     else:
+<<<<<<< HEAD
         return -1,-1
 
 def check_game(a,p):
@@ -37,8 +40,16 @@ while flag != 1 & m < 9:
             p += 1
             if(p > 1):
                 p = 0
+=======
+        x = 3
     
-print(a[0])
-print(a[1])
-print(a[2])
-Close_window()
+    if y<250:
+        y = 1
+    elif y<350:
+        y = 2
+    else:    
+        y = 3
+>>>>>>> parent of 2961eae... logic is all messed up
+    
+else:
+    print("Invalid")

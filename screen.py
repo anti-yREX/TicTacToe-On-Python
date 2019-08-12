@@ -2,10 +2,10 @@ from graphics import *
 
 win = GraphWin("GAME",500,550)
 
-blue = "#5c9df7"
+blue = "#0099ff"
 blue_d = "#0000ff" 
 
-red = "#f7665c"
+red = "#ff3000"
 red_d = "#ff0000"
 
 x = 100
@@ -36,6 +36,7 @@ text.setStyle("bold")
 text.setText("X")
 text.draw(win)
 
+<<<<<<< HEAD
 def Get_Input_xy(n):
     if n==0:
         c = red
@@ -91,6 +92,8 @@ def Show_Result(n,chk):
     text.draw(win)
     return
     
+=======
+>>>>>>> parent of 2961eae... logic is all messed up
 def Close_window():
     pt = win.getMouse()
     print(str(pt.getX)+"  "+str(pt.getY))
