@@ -13,6 +13,7 @@ if(100 < x < 400) & (150 < y < 450):
     else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return -1,-1
 
 def check_game(a,p):
@@ -44,6 +45,8 @@ while flag != 1 & m < 9:
 =======
 =======
 >>>>>>> parent of 2961eae... logic is all messed up
+=======
+>>>>>>> parent of 2961eae... logic is all messed up
         x = 3
     
     if y<250:
@@ -53,6 +56,9 @@ while flag != 1 & m < 9:
     else:    
         y = 3
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 2961eae... logic is all messed up
+=======
 >>>>>>> parent of 2961eae... logic is all messed up
 =======
 >>>>>>> parent of 2961eae... logic is all messed up
