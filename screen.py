@@ -71,15 +71,19 @@ def Put_Output_xy(x,y,n):
 
 def Show_Result(n,chk):
     stri = ""
+    c = ""
     if chk==1:
         if n == 0:
+            c = red
             stri = "X has won!!"
         if n == 1:
+            c = blue
             stri = "O has won!!"
     if chk==2:
-        stri == "its A Draw!!"
+        c = "#525252"
+        stri = "it's a Draw!!"
     rect  = Rectangle(Point(75,45),Point(425,115))
-    rect.setFill("#525252")
+    rect.setFill(c)
     rect.draw(win)
     text = Text(Point(250,80),stri)
     text.setSize(30)
