@@ -3,4 +3,4 @@
 Make TicTacToe on Python. 
  
 -Step 2:
-Make a ML Prediction Model
+Make An Machine Learning based model to defeat Human Player.
