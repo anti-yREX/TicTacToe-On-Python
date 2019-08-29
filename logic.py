@@ -1,11 +1,9 @@
-from math import floor
-
 def process_xy(x,y):
     if(100 < x < 400) & (150 < y < 450):
         x = x - 100
-        x = floor(x/100)
+        x = x//100
         y = y - 150
-        y = floor(y/100)
+        y = y//100
         return x , y  
     else:
         return -1,-1
